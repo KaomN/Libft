@@ -6,12 +6,20 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/08 21:02:31 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/25 16:12:04 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 15:15:47 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
+
+/*
+** DESCRIPTION
+** ft_strsub() function allocates with malloc(3) and returns a "fresh" substring
+** from the string given as argument. The substring begins at index start and
+** is of size len. If start and len aren't refering to a valid substring, the
+** behavior is undefined.
+*/
 
 char	*ft_strsub(char const *s, unsigned int start, size_t len)
 {

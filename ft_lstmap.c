@@ -6,12 +6,19 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 20:50:56 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/26 15:37:39 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 14:56:54 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
+
+/*
+** DESCRIPTION
+** ft_lstmap() function Iterates a list lst and applies the function f to each
+** link to create a "fresh" list (using malloc(3)) resulting from the successive
+** applications of f. If the allocation fails, the function returns NULL.
+*/
 
 static void	ft_del(void *content, size_t size)
 {

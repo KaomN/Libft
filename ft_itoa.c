@@ -6,12 +6,18 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/10 11:40:32 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/25 14:35:35 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 14:50:35 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
+
+/*
+** DESCRIPTION
+** ft_itoa() function allocates with malloc(3) and returns a "fresh" string
+** ending with '\0' representing the integer n given as argument.
+*/
 
 static size_t	ft_getlen(int n)
 {

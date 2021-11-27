@@ -6,11 +6,17 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 17:47:36 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/24 18:35:48 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 15:13:52 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+** DESCRIPTION
+** ft_strrev() function allocates with malloc(3) and returns a "fresh" string
+** s reversed
+*/
 
 char	*ft_strrev(char const *s)
 {

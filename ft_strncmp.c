@@ -6,11 +6,18 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/27 15:46:45 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/13 09:47:42 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 15:08:23 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+** DESCRIPTION
+** ft_strncmp() function compares at most n bytes of s1 and s2. The function
+** returns an integer less than, equal to, or grater than zero if s1 is found,
+** respectively, to be less than, to match or, be greater than s2.
+*/
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

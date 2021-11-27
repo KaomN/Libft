@@ -6,11 +6,23 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/01 15:35:19 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/25 16:06:29 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 14:58:38 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
+
+/*
+** DESCRIPTION
+** ft_memcmp() function compares the first n bytes of the memory areas
+** s1 and s2.
+**
+** RETURN VALUES
+** ft_memcmp() function returns an integer less than, equal to or greater than
+** zero if the first n bytes of s1 is gound, respectively to be less than, to
+** match or be greater than the first n bytes of s2.
+** if n is zero, the return value is zero.
+*/
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

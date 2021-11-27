@@ -6,11 +6,19 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 14:21:37 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/22 15:37:10 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 15:08:02 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+** DESCRIPTION
+** ft_strncat() function appends at most n bytes from s2 to s1, overwriting the
+** terminating null byte ('\0') at the end of s1 and then adds a terminating
+** null byte. The strings may not overlap, and the s1 string must have enough
+** space for the result. Size of s1 must be at least ft_strlen(s1) + n + 1.
+*/
 
 char	*ft_strncat(char *restrict s1, const char *restrict s2, size_t n)
 {

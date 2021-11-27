@@ -6,12 +6,19 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 15:04:02 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/27 14:29:00 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 15:15:20 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
+
+/*
+** DESCRIPTION
+** ft_strsplit() function allocates with malloc(3) and returns a linked list of
+** "fresh" strings (all ending with '\0') obtained by splitting s using the
+** character c as a delimiter.
+*/
 
 static void	ft_dellist(void *content, size_t size)
 {

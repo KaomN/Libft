@@ -6,12 +6,19 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/08 15:12:29 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/26 14:44:02 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 15:07:36 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
+
+/*
+** DESCRIPTION
+** ft_strmap() function applies the function f to each character of the string
+** given as argument to create a "fresh" new string with malloc(3) resulting
+** from the successive applications of f.
+*/
 
 char	*ft_strmap(char const *s, char (*f)(char))
 {

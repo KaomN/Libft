@@ -6,9 +6,16 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/27 15:46:45 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/17 19:55:58 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 15:02:33 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** DESCRIPTION
+** ft_strcmp() function compares the two strings s1 and s2. The function returns
+** an integer less than, equal to, or greater than zero if s1 is found,
+** respectively, to be less than, to match, or to be greater than s2.
+*/
 
 int	ft_strcmp(const char *s1, const char *s2)
 {

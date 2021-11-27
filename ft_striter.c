@@ -6,11 +6,18 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 09:17:36 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/25 15:42:43 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 15:06:08 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+** DESCRIPTION
+** ft_striter() function apllies the function f to each charachter of the string
+** passed as argument. Each character is passed by address to f to be modified
+** if necessary.
+*/
 
 void	ft_striter(char *s, void (*f)(char *))
 {

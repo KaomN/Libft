@@ -6,12 +6,18 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 14:41:04 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/21 13:37:01 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 15:10:09 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
+
+/*
+** DESCRIPTION
+** ft_strnew() function allocates with malloc(3) and returns a "fresh" string
+** ending with ('\0'). Each character of the string is initialized as ('\0').
+*/
 
 char	*ft_strnew(size_t size)
 {

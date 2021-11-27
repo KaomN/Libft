@@ -6,12 +6,21 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/09 19:16:07 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/24 17:27:57 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 15:16:08 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
+
+/*
+** DESCRIPTION
+** ft_strstrim() function allocates with malloc(3) and returns a copy of the
+** string given as argument without whitespaces at the beginning or at the
+** end of the string. Will be considered as whitespaces the following characters
+** ' ', '\n' and '\t'. if s has no white spaces at the beginning or at the end
+** the function returns a copy of s.
+*/
 
 static size_t	ft_getstart(char const *s)
 {

@@ -6,11 +6,17 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/08 21:15:41 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/25 15:38:52 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 15:06:32 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+** DESCRIPTION
+** ft_strjoin() function allocates with malloc(3) and returns a "fresh" string
+** ending with '\0', result of the concatenation of s1 and s2.
+*/
 
 char	*ft_strjoin(char const *s1, char const*s2)
 {

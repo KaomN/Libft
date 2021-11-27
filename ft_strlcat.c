@@ -6,11 +6,22 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 14:21:37 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/22 15:36:59 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 15:07:01 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+** DESCRIPTION
+** ft_strlcat() function append string src to the end of dst. It will append
+** at most dstsize - strlen(dst) - 1 characters. It will then NULL terminate,
+** unless dstsize is 0 or the original dst string was longer than dstsize.
+**
+** RETURN VALUE
+** ft_strlcat() function returns the initial length of dst plus the length of
+** src. If the return value is >= dstsize, the output has ben truncated
+*/
 
 size_t	ft_strlcat(char *restrict dst, const char *restrict src, size_t dstsize)
 {

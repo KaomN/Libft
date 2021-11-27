@@ -6,9 +6,15 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/28 16:11:32 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/10 14:55:53 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 14:49:19 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** DESCRIPTION
+** ft_atoi() function converts the initial portion of the string pointed to by
+** nptr to int.
+*/
 
 int	ft_atoi(const char *nptr)
 {

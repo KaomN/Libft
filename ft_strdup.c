@@ -6,12 +6,19 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 13:23:54 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/25 16:06:19 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 15:04:21 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include "libft.h"
+
+/*
+** DESCRIPTION
+** ft_strdup() function returns a pointer to a new string which is a duplicate
+** of the string s. Memory for the new string is obtained with malloc(3),
+** and can be freed with free(3).
+*/
 
 char	*ft_strdup(const char *s1)
 {
@@ -20,7 +27,9 @@ char	*ft_strdup(const char *s1)
 
 	len = ft_strlen(s1);
 	dup = (char *)malloc(sizeof(char) * len + 1);
-	if (dup != NULL)
+	if (dup == NULL)
+		return (NULL);
+	else
 		ft_strcpy(dup, s1);
 	return (dup);
 }

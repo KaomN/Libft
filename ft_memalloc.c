@@ -6,12 +6,18 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/04 13:42:24 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/13 20:32:10 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/27 14:57:06 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
+
+/*
+** DESCRIPTION
+** ft_memalloc() function allocates with malloc(3) and returns a "fresh" memory
+** area of size size. The memory allocated is initialized to 0.
+*/
 
 void	*ft_memalloc(size_t size)
 {
