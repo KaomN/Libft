@@ -6,7 +6,7 @@
 #    By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/04 14:59:57 by conguyen          #+#    #+#              #
-#    Updated: 2021/11/26 22:22:39 by conguyen         ###   ########.fr        #
+#    Updated: 2021/11/28 18:53:46 by conguyen         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -70,7 +70,7 @@ CFILES += ft_strnstr.c
 CFILES += ft_strrchr.c
 CFILES += ft_strrev.c
 CFILES += ft_strsplit.c
-CFILES += ft_strsplitlist.c
+CFILES += ft_strsplit_tolist.c
 CFILES += ft_strstr.c
 CFILES += ft_strsub.c
 CFILES += ft_strtrim.c

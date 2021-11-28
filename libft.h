@@ -6,7 +6,7 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 13:48:13 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/26 22:22:23 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/28 18:53:37 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -121,7 +121,7 @@ size_t	ft_wordcount(char const *s, char c);
 void	ft_lstaddend(t_list **alst, t_list *new);
 size_t	ft_list_size(t_list *list);
 char	*ft_strrev(char const *s);
-t_list	*ft_strsplitlist(char const *s, char c);
+t_list	*ft_strsplit_tolist(char const *s, char c);
 void	*ft_lstdelr(t_list **alst, void (*del)(void *, size_t));
 
 #endif

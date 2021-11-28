@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strsplitlist.c                                  :+:      :+:    :+:   */
+/*   ft_strsplit_tolist.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 15:04:02 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/27 15:15:20 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/28 18:53:28 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ static int	ft_skip(char const *s, char c, int count, size_t wlen)
 	return (count);
 }
 
-static void	ft_splittolist(t_list **lst, char const *s, int count, size_t wlen)
+static void	ft_tolist(t_list **lst, char const *s, int count, size_t wlen)
 {
 	char	*str;
 
@@ -66,7 +66,7 @@ static void	ft_splittolist(t_list **lst, char const *s, int count, size_t wlen)
 	free(str);
 }
 
-t_list	*ft_strsplitlist(char const *s, char c)
+t_list	*ft_strsplit_tolist(char const *s, char c)
 {
 	t_list	*list;
 	t_list	*tmp;
@@ -81,7 +81,7 @@ t_list	*ft_strsplitlist(char const *s, char c)
 	{
 		count = ft_skip(s, c, count, wlen);
 		wlen = ft_wordlen(&s[count], c);
-		ft_splittolist(&tmp, s, count, wlen);
+		ft_tolist(&tmp, s, count, wlen);
 		if (tmp == NULL)
 			return (ft_lstdelr(&list, ft_dellist));
 		if (list == NULL)
