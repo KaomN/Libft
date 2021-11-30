@@ -6,7 +6,7 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 14:21:37 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/27 15:07:01 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/11/30 13:44:16 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ size_t	ft_strlcat(char *restrict dst, const char *restrict src, size_t dstsize)
 	size_t			start;
 
 	start = ft_strlen(dst);
-	dstlen = ft_strlen(dst);
+	dstlen = start;
 	len = 0;
 	if (dstlen < dstsize)
 	{
