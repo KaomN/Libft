@@ -6,7 +6,7 @@
 #    By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/04 14:59:57 by conguyen          #+#    #+#              #
-#    Updated: 2021/11/28 18:53:46 by conguyen         ###   ########.fr        #
+#    Updated: 2021/12/01 15:22:40 by conguyen         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,9 @@ CFILES += ft_isalnum.c
 CFILES += ft_isalpha.c
 CFILES += ft_isascii.c
 CFILES += ft_isdigit.c
+CFILES += ft_islower.c
 CFILES += ft_isprint.c
+CFILES += ft_isupper.c
 CFILES += ft_itoa.c
 CFILES += ft_list_size.c
 CFILES += ft_lstadd.c

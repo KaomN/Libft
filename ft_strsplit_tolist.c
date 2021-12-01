@@ -6,12 +6,11 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 15:04:02 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/28 18:53:28 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/12/01 14:58:40 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 /*
 ** DESCRIPTION

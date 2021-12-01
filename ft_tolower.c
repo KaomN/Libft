@@ -6,9 +6,15 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/28 17:06:13 by conguyen          #+#    #+#             */
-/*   Updated: 2021/11/08 17:52:18 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/12/01 14:53:52 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** DESCRIPTION
+** ft_tolower) function converts a upper-case letter to the corresponding
+** lower-case letter.
+*/
 
 int	ft_tolower(int c)
 {

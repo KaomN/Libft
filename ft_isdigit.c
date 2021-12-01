@@ -6,9 +6,14 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/28 16:44:46 by conguyen          #+#    #+#             */
-/*   Updated: 2021/10/28 16:58:25 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/12/01 15:13:39 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+** DESCRIPTION
+** ft_isdigit() function tests for a decimal digit character.
+*/
 
 int	ft_isdigit(int c)
 {
