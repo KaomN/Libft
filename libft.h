@@ -6,7 +6,7 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 13:48:13 by conguyen          #+#    #+#             */
-/*   Updated: 2021/12/01 15:20:37 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/12/21 08:01:25 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,6 +70,7 @@ char	*ft_strsub(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s);
 char	**ft_strsplit(char const *s, char c);
+char	*ft_strinsert(char *dst, char *str, size_t insert);
 
 /*
 ** Write functions

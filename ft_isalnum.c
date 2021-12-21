@@ -6,7 +6,7 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/28 16:47:57 by conguyen          #+#    #+#             */
-/*   Updated: 2021/12/01 15:18:15 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/12/21 08:05:28 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 /*
 ** DESCRIPTION
-** ft_isalnum() function function tests for any character for which ft_isalpha() or
-** ft_isdigit() is true. The value of the argument must be representable as
+** ft_isalnum() function function tests for any character for which ft_isalpha()
+** or ft_isdigit() is true. The value of the argument must be representable as
 ** an unsigned char or the value of EOF.
 */
 

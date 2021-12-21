@@ -1,24 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isupper.c                                       :+:      :+:    :+:   */
+/*   ft_strinsert.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/01 15:14:56 by conguyen          #+#    #+#             */
-/*   Updated: 2021/12/21 08:05:47 by conguyen         ###   ########.fr       */
+/*   Created: 2021/12/21 07:51:21 by conguyen          #+#    #+#             */
+/*   Updated: 2021/12/21 08:05:56 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*
-** ft_isupper() function tests for any upper-case letter. The value of the
-** argument must be representable as an unsigned char or the value of EOF.
-*/
+#include "libft.h"
 
-int	ft_isupper(int c)
+char	*ft_strinsert(char *dst, char *str, size_t insert)
 {
-	if (c >= 65 && c <= 90)
-		return (1);
-	else
-		return (0);
+	char	*tmp;
+	char	*res;
+	char	*start;
+	char	*end;
+
+	if (str == NULL || dst == NULL)
+		return (dst);
+	start = ft_strsub(dst, 0, insert);
+	end = ft_strsub(dst, insert, ft_strlen(dst));
+	tmp = ft_strjoin(start, str);
+	res = ft_strjoin(tmp, end);
+	free(start);
+	free(end);
+	free(tmp);
+	return (res);
 }
