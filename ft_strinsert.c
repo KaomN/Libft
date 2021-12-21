@@ -6,11 +6,17 @@
 /*   By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/21 07:51:21 by conguyen          #+#    #+#             */
-/*   Updated: 2021/12/21 08:05:56 by conguyen         ###   ########.fr       */
+/*   Updated: 2021/12/21 08:08:29 by conguyen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/*
+** DESCRIPTION
+** ft_strinsert() function returns a "fresh" string, by inserting str inside dst
+** in index insert
+*/
 
 char	*ft_strinsert(char *dst, char *str, size_t insert)
 {
