@@ -6,7 +6,7 @@
 #    By: conguyen <conguyen@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/04 14:59:57 by conguyen          #+#    #+#              #
-#    Updated: 2021/12/01 15:22:40 by conguyen         ###   ########.fr        #
+#    Updated: 2021/12/21 08:10:48 by conguyen         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -56,6 +56,7 @@ CFILES += ft_strcpy.c
 CFILES += ft_strdel.c
 CFILES += ft_strdup.c
 CFILES += ft_strequ.c
+CFILES += ft_strinsert.c
 CFILES += ft_striter.c
 CFILES += ft_striteri.c
 CFILES += ft_strjoin.c
